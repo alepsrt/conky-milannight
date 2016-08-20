@@ -4,7 +4,7 @@ Lettore di RSS di www.milannight.com per conky
 Sintassi per versione 1.10
 
 ###Utilizzo
-Installare conky ed avviare con 'conky -c conky-milannight'
+Installare conky ed avviare con [conky -c conky-milannight]
 
 Utilizzare le variabili di conky per personalizzare posizione ed aspetto
 
