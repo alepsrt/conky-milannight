@@ -1,0 +1,59 @@
+
+conky.config = {
+    alignment = 'middle_middle',
+    background = true,
+    border_width = 1,
+	double_buffer = true,
+    cpu_avg_samples = 2,
+	default_color = 'white',
+    default_outline_color = 'white',
+    default_shade_color = 'white',
+    draw_borders = false,
+    draw_graph_borders = true,
+	own_window_transparent = true,
+    draw_outline = false,
+    draw_shades = false,
+    use_xft = true,
+    font = 'Sans:size=10',
+    gap_x = 0,
+    gap_y = 0,
+    minimum_height = 10,
+	minimum_width = 10,
+	maximum_width = 200,
+    net_avg_samples = 2,
+    no_buffers = true,
+    out_to_console = false,
+    out_to_stderr = false,
+    extra_newline = false,
+    own_window = true,
+    own_window_class = 'Conky',
+    own_window_type = 'desktop',
+    stippled_borders = 0,
+    update_interval = 1.0,
+    uppercase = false,
+    use_spacer = 'none',
+    show_graph_scale = false,
+    show_graph_range = false,
+	color0 = 'FFFFFF',
+	color1 = 'EAEAEA',
+	color2 = 'FFA300',
+	color3 = 'D3D7CF',
+	color4 = 'CC0000',
+	color5 = '000000'
+}
+
+conky.text = [[
+${alignc}${font bold:size=18}${color4}Milan${color5}Night${font}
+${alignc}${font bold:size=16}${color5}_________${color4}________${font}
+
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 0}
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 1}
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 2}
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 3}
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 4}
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 5}
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 6}
+${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 7}
+#${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 8}
+#${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 9}
+]]
