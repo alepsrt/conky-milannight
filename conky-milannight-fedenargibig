@@ -43,7 +43,7 @@ conky.config = {
 }
 
 conky.text = [[
-${image fedenargi.png -s 360x600}
+${image ./images/fedenargi.png -s 360x600}
 
 
 
@@ -52,7 +52,7 @@ ${image fedenargi.png -s 360x600}
 
 
 
-${image mn-logo-300.png -p 360,95 -s 185x78}
+${image ./images/mn-logo-300.png -p 360,95 -s 185x78}
 ${goto 360}${font Sans:bold:size=20}${color4}MILAN${color5}NIGHT${font}
 ${goto 360}${font bold:size=10}${color5}SEMPRE ALL'ATTACCO${font}
 

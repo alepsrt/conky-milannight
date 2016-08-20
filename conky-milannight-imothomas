@@ -43,13 +43,7 @@ conky.config = {
 }
 
 conky.text = [[
-${alignc}${image imothomas.png -s 250x500}
-
-
-
-
-
-
+${alignc}${image ./images/imothomas.png -s 250x500}
 
 
 
@@ -60,6 +54,10 @@ ${alignc}${image imothomas.png -s 250x500}
 
 ${alignc}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 0}
 ${alignc}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 1}
+
+
+
+
 ${alignc}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 2}
 ${alignc}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 3}
 ${alignc}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 4}

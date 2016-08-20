@@ -43,7 +43,7 @@ conky.config = {
 }
 
 conky.text = [[
-${alignc}${image fedenargi.png -s 289x600}
+${alignc}${image ./images/fedenargi.png -s 289x600}
 
 
 
