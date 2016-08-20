@@ -1,6 +1,6 @@
 
 conky.config = {
-    alignment = 'middle_middle',
+    alignment = 'top_middle',
     background = true,
     border_width = 1,
 	double_buffer = true,
@@ -14,12 +14,12 @@ conky.config = {
     draw_outline = false,
     draw_shades = false,
     use_xft = true,
-    font = 'Sans:size=10',
+    font = 'Sans:size=12',
     gap_x = 0,
-    gap_y = 0,
+    gap_y = 550,
     minimum_height = 10,
-	minimum_width = 10,
-	maximum_width = 200,
+	minimum_width = 350,
+	maximum_width = 350,
     net_avg_samples = 2,
     no_buffers = true,
     out_to_console = false,
@@ -43,8 +43,18 @@ conky.config = {
 }
 
 conky.text = [[
-${alignc}${font bold:size=18}${color4}Milan${color5}Night${font}
-${alignc}${font bold:size=16}${color5}_________${color4}________${font}
+${alignc}${image mn-logo-600.png -s 350x150}
+
+
+
+
+
+
+
+
+${alignc}${font Sans:bold:size=32}${color4}MILAN${color5}NIGHT${font}
+${alignc}${font bold:size=14}${color5}SEMPRE ALL'ATTACCO${font}
+#${alignc}${font bold:size=16}${color5}_________${color4}________${font}
 
 ${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 0}
 ${alignc}${color0}${rss http://www.milannight.com/rss2.xml 10 item_title 1}

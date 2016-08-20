@@ -1,0 +1,74 @@
+
+conky.config = {
+    alignment = 'bottom_middle',
+    background = true,
+    border_width = 1,
+	double_buffer = true,
+    cpu_avg_samples = 2,
+	default_color = 'white',
+    default_outline_color = 'white',
+    default_shade_color = 'white',
+    draw_borders = false,
+    draw_graph_borders = true,
+	own_window_transparent = true,
+    draw_outline = false,
+    draw_shades = false,
+    use_xft = true,
+    font = 'Sans:size=12',
+    gap_x = 0,
+    gap_y = 0,
+    minimum_height = 600,
+	minimum_width = 720,
+	maximum_width = 720,
+    net_avg_samples = 2,
+    no_buffers = true,
+    out_to_console = false,
+    out_to_stderr = false,
+    extra_newline = false,
+    own_window = true,
+    own_window_class = 'Conky',
+    own_window_type = 'desktop',
+    stippled_borders = 0,
+    update_interval = 1.0,
+    uppercase = false,
+    use_spacer = 'none',
+    show_graph_scale = false,
+    show_graph_range = false,
+	color0 = 'FFFFFF',
+	color1 = 'EAEAEA',
+	color2 = 'FFA300',
+	color3 = 'D3D7CF',
+	color4 = 'CC0000',
+	color5 = '000000'
+}
+
+conky.text = [[
+${image fedenargi.png -s 360x600}
+
+
+
+
+
+
+
+
+${image mn-logo-300.png -p 360,95 -s 185x78}
+${goto 360}${font Sans:bold:size=20}${color4}MILAN${color5}NIGHT${font}
+${goto 360}${font bold:size=10}${color5}SEMPRE ALL'ATTACCO${font}
+
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 0}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 1}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 2}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 3}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 4}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 5}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 6}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 7}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 8}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 9}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 10}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 11}
+${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 12}
+#${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 13}
+#${goto 360}${color5}${rss http://www.milannight.com/rss2.xml 10 item_title 14}
+]]
