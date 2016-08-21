@@ -17,7 +17,7 @@ conky.config = {
     font = 'Sans:size=12',
     gap_x = 0,
     gap_y = 0,
-    minimum_height = 660,
+    minimum_height = 600,
 	minimum_width = 360,
 	maximum_width = 360,
     net_avg_samples = 2,
@@ -43,7 +43,7 @@ conky.config = {
 }
 
 conky.text = [[
-${alignc}${image ./images/fedenargi.png -s 289x600}
+${alignc}${image ./images/fedenargi.png -s 360x600}
 
 
 
